@@ -3,8 +3,9 @@ const app = express()
 const port = 8080
 
 app.get('/*', (req, res) => {
-    console.log(`${process.env.NAME}|Call on : ${req.originalUrl} -> ${req.url}`);
-    res.send(`Call received on : ${req.originalUrl} -> ${req.url}`);
+    const message = `${process.env.NAME}|Call received on : ${req.originalUrl} -> ${req.url}`;
+    console.log(message);
+    res.send(message);
 })
 
 app.listen(port, () => {
