@@ -1,0 +1,27 @@
+{
+  "name": "routedisplayer",
+  "version": "1.0.0",
+  "description": "Simple app that returns the route, usefull to test rewriting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EChaffraix/routeDisplayer.git"
+  },
+  "keywords": [
+    "route",
+    "simpleapp",
+    "url-rewrite"
+  ],
+  "author": "EChaffraix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EChaffraix/routeDisplayer/issues"
+  },
+  "homepage": "https://github.com/EChaffraix/routeDisplayer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
